@@ -13,7 +13,7 @@ const renderProduct = (title, price) => {
             <img class="product_img" src="${calcLink(title)}" 
               width="100" height="60" alt="#">
             <p>${price}$</p>
-            <button class="cart-button">Купить</button>
+            <button class="cart-button">Добавить в корзину</button>
           </div>`;
 };
 
