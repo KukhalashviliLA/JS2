@@ -19,7 +19,7 @@ const renderProduct = (title, price) => {
 
 const renderPage = list => {
   const productList = list.map(item => renderProduct(item.title, item.price));
-  document.querySelector(`.goods-list`).innerHTML = productList.join("");
+  document.querySelector(`.goods-list`).innerHTML = productList.join(""); /*избавляемся от запятой*/
 };
 
 renderPage(goods);
