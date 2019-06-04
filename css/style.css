@@ -18,31 +18,35 @@
 .logo {
   display: block;
   margin: 20px 0 0 100px;
-  width: 80px;
-  height: 60px;
 }
 
 .magazin-name {
   font-size: 70px;
 }
 
-.cart-button {
+.cart-button,
+.buy-btn {
   margin: 30px 100px;
   color: #fff;
   text-decoration: none;
   user-select: none;
   background: #C34848;
-  padding: 5px;
+  padding: .7em 1.5em;
   outline: none;
   border: none;
 }
 
-.cart-button:hover {
-  background: rgb(232, 95, 76);
+.cart-button:hover,
+.buy-btn:hover {
+  background: transparent;
+  color: #C34848;
+  outline: 1px solid #C34848;
 }
 
-.cart-button:active {
+.cart-button:active,
+.buy-btn:active {
   background: #C34848;
+  color: #fff;
 }
 
 .main {
@@ -54,30 +58,25 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .product-item {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  width: 250px;
+  width: 295px;
   align-items: center;
   border: 1px solid black;
-  margin: 10px 0;
-  padding-top: 20px;
+  margin: 10px;
 }
 
 .product_img {
   display: block;
-  align-items: center;
+  margin: 0 auto;
 }
 
-.main {
-  align-items: center;
-}
-
-h3, p {
+h3,
+p {
   text-align: center;
-  padding: 5px;
 }
