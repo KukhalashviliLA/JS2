@@ -29,7 +29,7 @@ class ProductsList {
   // Добавьте для каталога метод, определяющий суммарную стоимость всех товаров.
   calcAllProducts() {
     let costAllProducts = 0;
-    this.data.forEach((product) => { 
+    this.productsAll.forEach((product) => { 
       costAllProducts += product.price;
     });
   }
