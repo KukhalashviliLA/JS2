@@ -1,0 +1,100 @@
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.taskOneTwo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+.task {
+    width: 400px;
+}
+
+span {
+    display: block;
+}
+
+.insert_text {
+    width: 350px;
+    min-height: 380px;
+    border-radius: 5px;
+    box-shadow: #cecece 0 0 10px;
+}
+
+h3 {
+    height: 50px;
+}
+button {
+width: 100%;
+padding: 10px;
+border-radius: 2px;
+border: 0;
+background-color: #ccc;
+color: #fff;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #ccc
+}
+button:active {
+    background-color: #ccc;
+    color: #fff
+}
+
+
+
+.Task3 {
+    text-align: center;
+}
+
+.form {
+	display: inline-block;
+	padding: 25px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 500px;
+}
+
+.form input {
+	outline: none;
+	display: block;
+	width: 100%;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.form button {
+	width: 100%;
+	padding: 10px;
+	border-radius: 2px;
+	border: 0;
+	background-color: #ccc;
+	color: #fff;
+}
+div {
+	margin: 10px;
+}
+
+textarea {
+	width: 99%;
+}
+.error {
+	border: 1px solid red;
+}
